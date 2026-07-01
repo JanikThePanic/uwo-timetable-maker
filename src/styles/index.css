@@ -28,7 +28,8 @@ body {
 .app-header {
   display: flex;
   align-items: baseline;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 4px 12px;
   margin-bottom: 12px;
 }
 .app-header h1 {
@@ -38,6 +39,18 @@ body {
 .subtitle {
   color: var(--muted);
   font-size: 13px;
+}
+.tagline {
+  font-style: italic;
+  margin-left: auto;
+  color: var(--muted);
+}
+.tagline a {
+  color: inherit;
+  text-decoration: underline;
+}
+.tagline a:hover {
+  color: var(--accent, #7c5cff);
 }
 
 .layout {
@@ -257,6 +270,26 @@ body {
 }
 
 /* results */
+.pref-select {
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pref-select select {
+  font-size: 13px;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+}
+.pref-select select:focus {
+  outline: 2px solid var(--accent-soft);
+  border-color: var(--accent);
+}
 .results-count {
   font-size: 14px;
   margin: 2px 0 12px;

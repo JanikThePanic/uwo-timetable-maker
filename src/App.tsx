@@ -35,8 +35,19 @@ export default function App() {
       <header className="app-header">
         <h1>Timetable Maker</h1>
         <span className="subtitle">
-          {allCourses.length} courses loaded · all conflict-free combinations
+          {allCourses.length} courses installed · conflict-free combinations, ranked by preference
         </span>
+          <span className="tagline">
+            ✨built with nothing but{" "}
+            <a
+              href="https://github.com/JanikThePanic/uwo-timetable-maker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              vibes
+            </a>
+            ✨
+          </span>
       </header>
 
       {loadErrors.length > 0 && (

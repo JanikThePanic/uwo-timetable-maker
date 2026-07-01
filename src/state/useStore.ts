@@ -2,6 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { Course } from "../data/schema";
 import type { PreparedCourse } from "../lib/generate";
+import type { Preference } from "../lib/rank";
 
 const sectionKey = (type: string, section: string) => `${type}/${section}`;
 
@@ -11,10 +12,13 @@ interface SelectionState {
   disabledComponents: Record<string, string[]>;
   /** courseCode -> "type/section" keys the user turned OFF. */
   disabledSections: Record<string, string[]>;
+  /** How to rank the generated timetables. */
+  preference: Preference;
 
   addCourse: (code: string) => void;
   removeCourse: (code: string) => void;
   clearAll: () => void;
+  setPreference: (preference: Preference) => void;
 
   isComponentEnabled: (code: string, type: string) => boolean;
   toggleComponent: (code: string, type: string) => void;
@@ -30,6 +34,9 @@ export const useStore = create<SelectionState>()(
       selectedCodes: [],
       disabledComponents: {},
       disabledSections: {},
+      preference: "early",
+
+      setPreference: (preference) => set({ preference }),
 
       addCourse: (code) =>
         set((s) =>

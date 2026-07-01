@@ -53,16 +53,3 @@ npm run dev      # local dev server
 npm run test     # vitest — generation/conflict/bundling logic
 npm run build    # static production bundle in dist/
 ```
-
-## Project layout
-
-| Path | What |
-| --- | --- |
-| `src/data/schema.ts` | zod schema + inferred TS types (source of truth) |
-| `src/data/loadCourses.ts` | auto-load + validate course JSON |
-| `src/data/courses/` | the course data files |
-| `src/lib/time.ts` | time parsing + interval-overlap conflict checks |
-| `src/lib/generate.ts` | instructor bundling + backtracking timetable generation |
-| `src/lib/generate.test.ts` | tests for the above |
-| `src/state/useStore.ts` | zustand store (selection + toggles, persisted) |
-| `src/components/` | CoursePicker, CourseCard, TimetableGrid, Results |
