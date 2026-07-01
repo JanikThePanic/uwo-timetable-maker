@@ -4,7 +4,11 @@ A small React web app that takes your courses and generates **every conflict-fre
 timetable**, shown as scrollable week-grid calendars. Inspired by the (now out of
 date) [Western Timetable Maker](https://western.ttmaker.ca/).
 
-No backend — everything runs in the browser, so it deploys as a static site.
+No backend — everything runs in the browser, so it deploys as a static site..
+
+## Adding a course
+
+Read [this guide](docs/INSTALLING_COURSES.md).
 
 ## How it works
 
@@ -36,14 +40,6 @@ tells you (rather than silently producing zero timetables). Example: in the
 included `ECE 2238A` sample, R. Rao's LEC 001 and TUT 004 are both Thu 1:30–2:30,
 so with LEC+TUT+LAB all required there's no valid R. Rao stream — uncheck the TUT
 component (or fix the data) to see options.
-
-## Adding a course
-
-1. Screenshot the course in the Western timetable.
-2. Use [`SCRAPER_PROMPT.md`](SCRAPER_PROMPT.md) with any AI to turn the screenshot
-   into JSON ([`course.schema.json`](course.schema.json) is the formal schema).
-3. Save it as `src/data/courses/<anything>.json`.
-4. Refresh `npm run dev` — the course appears in search.
 
 ## Develop
 
