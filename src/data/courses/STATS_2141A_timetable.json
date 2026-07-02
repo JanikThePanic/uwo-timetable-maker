@@ -1,0 +1,109 @@
+{
+  "code": "STATS 2141A",
+  "name": "APPLIED PROBABILITY AND STATISTICS FOR ENGINEERS",
+  "term": "Fall",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9893",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "13:30",
+              "end": "14:30",
+              "location": "NSC-1"
+            },
+            {
+              "day": "We",
+              "start": "13:30",
+              "end": "14:30",
+              "location": "NSC-1"
+            },
+            {
+              "day": "Fr",
+              "start": "13:30",
+              "end": "14:30",
+              "location": "NSC-1"
+            }
+          ]
+        },
+        {
+          "section": "002",
+          "classNbr": "12594",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "18:30",
+              "end": "19:30",
+              "location": "MC-110"
+            },
+            {
+              "day": "Tu",
+              "start": "17:30",
+              "end": "18:30",
+              "location": "MC-110"
+            },
+            {
+              "day": "Fr",
+              "start": "12:30",
+              "end": "13:30",
+              "location": "NSC-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "003",
+          "classNbr": "9894",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "17:30",
+              "end": "18:30",
+              "location": "NSC-1"
+            }
+          ]
+        },
+        {
+          "section": "004",
+          "classNbr": "12595",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "11:30",
+              "end": "12:30",
+              "location": "AHB-1R40"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

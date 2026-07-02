@@ -1,0 +1,57 @@
+{
+  "code": "ECE 3370B",
+  "name": "ANALOG COMMUNICATIONS THEORY",
+  "term": "Winter",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9891",
+          "instructor": "S. Primak",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "11:30",
+              "end": "13:30",
+              "location": "HSB-240"
+            },
+            {
+              "day": "Th",
+              "start": "13:30",
+              "end": "14:30",
+              "location": "SEB-1200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "9892",
+          "instructor": "S. Primak",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "17:30",
+              "end": "18:30",
+              "location": "SEB-1200"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

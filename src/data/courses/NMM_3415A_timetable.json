@@ -1,0 +1,41 @@
+{
+  "code": "NMM 3415A",
+  "name": "ADVANCED APPLIED MATHEMATICS FOR ELECTRICAL ENGINEERING",
+  "term": "Fall",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9120",
+          "instructor": "B. Todose",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "11:30",
+              "end": "12:30",
+              "location": "AHB-1R40"
+            },
+            {
+              "day": "We",
+              "start": "11:30",
+              "end": "12:30",
+              "location": "AHB-1R40"
+            },
+            {
+              "day": "Fr",
+              "start": "11:30",
+              "end": "12:30",
+              "location": "AHB-1R40"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

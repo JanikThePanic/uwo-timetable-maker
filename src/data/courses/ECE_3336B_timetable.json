@@ -1,0 +1,57 @@
+{
+  "code": "ECE 3336B",
+  "name": "ELECTROMAGNETIC THEORY",
+  "term": "Winter",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9175",
+          "instructor": "J. Sabarinathan",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "14:30",
+              "end": "15:30",
+              "location": "WSC-55"
+            },
+            {
+              "day": "Fr",
+              "start": "11:30",
+              "end": "13:30",
+              "location": "UCC-56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "9176",
+          "instructor": "J. Sabarinathan",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "17:30",
+              "end": "18:30",
+              "location": "HSB-236"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
