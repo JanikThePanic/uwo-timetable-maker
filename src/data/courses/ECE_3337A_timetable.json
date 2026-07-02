@@ -1,0 +1,130 @@
+{
+  "code": "ECE 3337A",
+  "name": "ELECTRONIC CIRCUITS",
+  "term": "Fall",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9867",
+          "instructor": "A. Dounavis",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "17:30",
+              "end": "18:30",
+              "location": "SEB-1200"
+            },
+            {
+              "day": "Th",
+              "start": "15:30",
+              "end": "17:30",
+              "location": "UCC-56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LAB",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "9868",
+          "instructor": "A. Dounavis",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Th",
+              "start": "18:00",
+              "end": "21:00",
+              "location": "SEB-3107"
+            }
+          ]
+        },
+        {
+          "section": "003",
+          "classNbr": "9869",
+          "instructor": "A. Dounavis",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Th",
+              "start": "18:00",
+              "end": "21:00",
+              "location": ""
+            }
+          ]
+        },
+        {
+          "section": "004",
+          "classNbr": "13524",
+          "instructor": "A. Dounavis",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "08:30",
+              "end": "11:30",
+              "location": "SEB-3107"
+            }
+          ]
+        },
+        {
+          "section": "005",
+          "classNbr": "13525",
+          "instructor": "A. Dounavis",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "08:30",
+              "end": "11:30",
+              "location": "SEB-3107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "006",
+          "classNbr": "10567",
+          "instructor": "A. Dounavis",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Th",
+              "start": "13:30",
+              "end": "14:30",
+              "location": "NSC-7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "code": "ECE 3333B",
+  "name": "ELECTRIC POWER SYSTEMS I",
+  "term": "Winter",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9144",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "15:30",
+              "end": "16:30",
+              "location": "HSB-240"
+            },
+            {
+              "day": "Tu",
+              "start": "18:30",
+              "end": "20:30",
+              "location": "HSB-236"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "9379",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "08:30",
+              "end": "09:30",
+              "location": "UCC-56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LAB",
+      "sections": [
+        {
+          "section": "003",
+          "classNbr": "9145",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "08:30",
+              "end": "11:30",
+              "location": "SEB-2093"
+            }
+          ]
+        },
+        {
+          "section": "004",
+          "classNbr": "11250",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "14:30",
+              "end": "17:30",
+              "location": "SEB-2093"
+            }
+          ]
+        },
+        {
+          "section": "005",
+          "classNbr": "13522",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "08:30",
+              "end": "11:30",
+              "location": ""
+            }
+          ]
+        },
+        {
+          "section": "006",
+          "classNbr": "10988",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "14:30",
+              "end": "17:30",
+              "location": ""
+            }
+          ]
+        },
+        {
+          "section": "007",
+          "classNbr": "13523",
+          "instructor": "R. Varma",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "18:30",
+              "end": "21:30",
+              "location": "SEB-2093"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
