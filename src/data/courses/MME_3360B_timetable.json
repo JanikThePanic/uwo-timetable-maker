@@ -1,0 +1,187 @@
+{
+  "code": "MME 3360B",
+  "name": "FINITE ELMNT METH IN MECH ENG",
+  "term": "Winter",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9388",
+          "instructor": "B. Hamilton",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "15:30",
+              "end": "16:30",
+              "location": "HSB-40"
+            },
+            {
+              "day": "We",
+              "start": "17:30",
+              "end": "18:30",
+              "location": "HSB-40"
+            },
+            {
+              "day": "Fr",
+              "start": "11:30",
+              "end": "12:30",
+              "location": "AH-201"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "10427",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "09:30",
+              "end": "11:30",
+              "location": "HSB-35"
+            }
+          ]
+        },
+        {
+          "section": "003",
+          "classNbr": "18211",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "13:30",
+              "end": "15:30",
+              "location": "SEB-2100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LAB",
+      "sections": [
+        {
+          "section": "004",
+          "classNbr": "9510",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Fr",
+              "start": "15:30",
+              "end": "17:30",
+              "location": "ACEB-2415"
+            }
+          ]
+        },
+        {
+          "section": "005",
+          "classNbr": "10815",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "09:30",
+              "end": "11:30",
+              "location": "ACEB-2415"
+            }
+          ]
+        },
+        {
+          "section": "006",
+          "classNbr": "9621",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "18:30",
+              "end": "20:30",
+              "location": "TEB-454"
+            }
+          ]
+        },
+        {
+          "section": "007",
+          "classNbr": "18212",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "17:30",
+              "end": "19:30",
+              "location": "ACEB-2415"
+            }
+          ]
+        },
+        {
+          "section": "008",
+          "classNbr": "18213",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "19:00",
+              "end": "21:00",
+              "location": "ACEB-2415"
+            }
+          ]
+        },
+        {
+          "section": "009",
+          "classNbr": "18214",
+          "instructor": "",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "16:30",
+              "end": "18:30",
+              "location": "ACEB-2415"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

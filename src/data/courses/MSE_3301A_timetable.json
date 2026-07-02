@@ -1,0 +1,50 @@
+{
+  "code": "MSE 3301A",
+  "name": "MATERIALS SELECTION & MNFT",
+  "term": "Fall",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "10365",
+          "instructor": "E. Johlin",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "We",
+              "start": "12:30",
+              "end": "13:30",
+              "location": "FNB-1250"
+            },
+            {
+              "day": "Fr",
+              "start": "09:30",
+              "end": "11:30",
+              "location": "FNB-3210"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LAB",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "10366",
+          "instructor": "E. Johlin",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": []
+        }
+      ]
+    }
+  ]
+}

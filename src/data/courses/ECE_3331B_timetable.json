@@ -1,0 +1,148 @@
+{
+  "code": "ECE 3331B",
+  "name": "SIGNALS AND SYSTEMS",
+  "term": "Winter",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "9715",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "10:30",
+              "end": "11:30",
+              "location": "ACEB-1410"
+            },
+            {
+              "day": "Th",
+              "start": "10:30",
+              "end": "12:30",
+              "location": "UCC-37"
+            }
+          ]
+        },
+        {
+          "section": "002",
+          "classNbr": "13562",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "11:30",
+              "end": "12:30",
+              "location": "ACEB-1410"
+            },
+            {
+              "day": "We",
+              "start": "13:30",
+              "end": "15:30",
+              "location": "ACEB-1410"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LAB",
+      "sections": [
+        {
+          "section": "003",
+          "classNbr": "9716",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "11:30",
+              "end": "14:30",
+              "location": "TEB-454"
+            }
+          ]
+        },
+        {
+          "section": "004",
+          "classNbr": "9717",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Tu",
+              "start": "11:30",
+              "end": "14:30",
+              "location": ""
+            }
+          ]
+        },
+        {
+          "section": "005",
+          "classNbr": "9718",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "18:30",
+              "end": "21:30",
+              "location": "TEB-454"
+            }
+          ]
+        },
+        {
+          "section": "006",
+          "classNbr": "13563",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "18:30",
+              "end": "21:30",
+              "location": ""
+            }
+          ]
+        },
+        {
+          "section": "007",
+          "classNbr": "13564",
+          "instructor": "A. Attaran",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Th",
+              "start": "13:30",
+              "end": "16:30",
+              "location": "TEB-454"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
