@@ -16,6 +16,8 @@ export function Results({
   const [shown, setShown] = useState(PAGE);
   const preference = useStore((s) => s.preference);
   const setPreference = useStore((s) => s.setPreference);
+  const profLock = useStore((s) => s.profLock);
+  const setProfLock = useStore((s) => s.setProfLock);
 
   const { timetables, total, truncated, courseErrors } = result;
 
@@ -33,20 +35,42 @@ export function Results({
     <div className="results">
       <div className="panel-head">
         <h2>Results</h2>
-        {total > 0 && (
-          <label className="pref-select">
-            Rank by{" "}
-            <select
-              value={preference}
-              onChange={(e) => setPreference(e.target.value as Preference)}
-            >
-              {PREFERENCES.map((p) => (
-                <option key={p.id} value={p.id}>
-                  {p.label}
-                </option>
-              ))}
-            </select>
-          </label>
+        {hasSelection && (
+          <div className="panel-head-actions">
+            {total > 0 && (
+              <label className="pref-select">
+                Rank by{" "}
+                <select
+                  value={preference}
+                  onChange={(e) => setPreference(e.target.value as Preference)}
+                >
+                  {PREFERENCES.map((p) => (
+                    <option key={p.id} value={p.id}>
+                      {p.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            )}
+            <label className="prof-lock">
+              <span className={`switch ${profLock ? "switch-on" : ""}`}>
+                <input
+                  type="checkbox"
+                  checked={profLock}
+                  onChange={(e) => setProfLock(e.target.checked)}
+                />
+                <span className="slider" />
+              </span>
+              Prof lock
+              <span
+                className="info-icon"
+                title="On: a course's LEC/TUT/LAB must share the same instructor. Off: mix and match sections freely."
+                aria-label="What is prof lock?"
+              >
+                ?
+              </span>
+            </label>
+          </div>
         )}
       </div>
 

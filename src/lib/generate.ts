@@ -61,12 +61,16 @@ function cartesian<T>(lists: T[][]): T[][] {
 
 /**
  * Build every valid course-option for a single course.
- * Bundling: all chosen sections must share one instructor (grouping is scoped to
- * THIS course, so an instructor who also teaches other courses is never matched
- * across courses). A valid option includes exactly one section for every required
- * component type the course has.
+ * Bundling (when `profLock` is true): all chosen sections must share one instructor
+ * (grouping is scoped to THIS course, so an instructor who also teaches other courses
+ * is never matched across courses). A valid option includes exactly one section for
+ * every required component type the course has.
+ * When `profLock` is false, sections mix freely (any LEC with any TUT/LAB).
  */
-export function buildCourseOptions(course: PreparedCourse): CourseOptionsResult {
+export function buildCourseOptions(
+  course: PreparedCourse,
+  profLock = true,
+): CourseOptionsResult {
   const requiredTypes = course.components;
 
   if (requiredTypes.length === 0) {
@@ -82,15 +86,17 @@ export function buildCourseOptions(course: PreparedCourse): CourseOptionsResult 
     };
   }
 
-  // Named (non-wildcard) instructors define the streams. If none are named,
-  // the whole course is one free stream (any section combines with any).
+  // Named (non-wildcard) instructors define the streams. If none are named (or the
+  // user turned prof lock off), the whole course is one free stream (any section
+  // combines with any).
   const named = new Set<string>();
   for (const comp of requiredTypes) {
     for (const s of comp.sections) {
       if (!isWildcardInstructor(s.instructor)) named.add(s.instructor.trim());
     }
   }
-  const streams = named.size === 0 ? [""] : [...named];
+  const lock = profLock && named.size > 0;
+  const streams = lock ? [...named] : [""];
 
   const options: CourseOption[] = [];
 
@@ -100,9 +106,9 @@ export function buildCourseOptions(course: PreparedCourse): CourseOptionsResult 
     const perType = requiredTypes.map((comp) => ({
       type: comp.type,
       sections: comp.sections.filter((s) =>
-        named.size === 0
-          ? true
-          : s.instructor.trim() === instructor || isWildcardInstructor(s.instructor),
+        lock
+          ? s.instructor.trim() === instructor || isWildcardInstructor(s.instructor)
+          : true,
       ),
     }));
 
@@ -164,12 +170,13 @@ export interface GenerationResult {
 export function generateTimetables(
   courses: PreparedCourse[],
   limit = 5000,
+  profLock = true,
 ): GenerationResult {
   const courseErrors: { courseCode: string; message: string }[] = [];
   const optionLists: CourseOption[][] = [];
 
   for (const course of courses) {
-    const { options, error } = buildCourseOptions(course);
+    const { options, error } = buildCourseOptions(course, profLock);
     if (error) courseErrors.push({ courseCode: course.code, message: error });
     if (options.length === 0) {
       // This course can't be scheduled; no timetable is possible.

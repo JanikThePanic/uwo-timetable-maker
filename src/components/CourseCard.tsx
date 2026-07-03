@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { Course, Section } from "../data/schema";
 import { courseColor } from "../lib/color";
 import { DAY_LABELS, formatMinutes, toMinutes } from "../lib/time";
@@ -23,15 +24,23 @@ export function CourseCard({ course }: { course: Course }) {
   const toggleSection = useStore((s) => s.toggleSection);
   const setAllSections = useStore((s) => s.setAllSections);
 
+  const [collapsed, setCollapsed] = useState(false);
+
   const color = courseColor(course.code);
 
   return (
     <div className="course-card" style={{ borderLeftColor: color.border }}>
       <div className="course-card-head">
-        <div>
+        <button
+          className="course-card-title"
+          onClick={() => setCollapsed((c) => !c)}
+          title={collapsed ? "Expand" : "Collapse"}
+          aria-expanded={!collapsed}
+        >
+          <span className="course-card-caret">{collapsed ? "▸" : "▾"}</span>
           <span className="course-card-code">{course.code}</span>
           {course.name && <span className="course-card-name">{course.name}</span>}
-        </div>
+        </button>
         <button
           className="link-btn"
           title="Remove course"
@@ -41,7 +50,8 @@ export function CourseCard({ course }: { course: Course }) {
         </button>
       </div>
 
-      {course.components.map((comp) => {
+      {!collapsed &&
+        course.components.map((comp) => {
         const compEnabled = isComponentEnabled(course.code, comp.type);
         const sectionNames = comp.sections.map((s) => s.section);
         return (
