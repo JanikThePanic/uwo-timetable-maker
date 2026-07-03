@@ -92,6 +92,10 @@ describe("buildCourseOptions — instructor bundling", () => {
       const names = new Set(o.sections.map((s) => s.section.instructor));
       expect(names.size).toBe(1);
     }
+
+    // With prof lock OFF, all 4 LEC×TUT combos are allowed (mix and match).
+    const unlocked = buildCourseOptions(course, false);
+    expect(unlocked.options).toHaveLength(4);
   });
 
   it("LEC-only course yields one option per LEC", () => {

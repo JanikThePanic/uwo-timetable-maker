@@ -12,6 +12,7 @@ export default function App() {
   const selectedCodes = useStore((s) => s.selectedCodes);
   const disabledComponents = useStore((s) => s.disabledComponents);
   const disabledSections = useStore((s) => s.disabledSections);
+  const profLock = useStore((s) => s.profLock);
   const clearAll = useStore((s) => s.clearAll);
 
   const selectedCourses = useMemo(
@@ -27,8 +28,8 @@ export default function App() {
       disabledComponents,
       disabledSections,
     });
-    return generateTimetables(prepared);
-  }, [selectedCourses, disabledComponents, disabledSections]);
+    return generateTimetables(prepared, undefined, profLock);
+  }, [selectedCourses, disabledComponents, disabledSections, profLock]);
 
   return (
     <div className="app">

@@ -14,11 +14,14 @@ interface SelectionState {
   disabledSections: Record<string, string[]>;
   /** How to rank the generated timetables. */
   preference: Preference;
+  /** When true, a course's LEC/TUT/LAB must share an instructor; when false, mix freely. */
+  profLock: boolean;
 
   addCourse: (code: string) => void;
   removeCourse: (code: string) => void;
   clearAll: () => void;
   setPreference: (preference: Preference) => void;
+  setProfLock: (profLock: boolean) => void;
 
   isComponentEnabled: (code: string, type: string) => boolean;
   toggleComponent: (code: string, type: string) => void;
@@ -35,8 +38,10 @@ export const useStore = create<SelectionState>()(
       disabledComponents: {},
       disabledSections: {},
       preference: "early",
+      profLock: true,
 
       setPreference: (preference) => set({ preference }),
+      setProfLock: (profLock) => set({ profLock }),
 
       addCourse: (code) =>
         set((s) =>
