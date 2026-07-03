@@ -52,10 +52,7 @@ export function Results({
                 </select>
               </label>
             )}
-            <label
-              className="prof-lock"
-              title="On: a course's LEC/TUT/LAB must share the same instructor. Off: mix and match sections freely."
-            >
+            <label className="prof-lock">
               <span className={`switch ${profLock ? "switch-on" : ""}`}>
                 <input
                   type="checkbox"
@@ -65,6 +62,13 @@ export function Results({
                 <span className="slider" />
               </span>
               Prof lock
+              <span
+                className="info-icon"
+                title="On: a course's LEC/TUT/LAB must share the same instructor. Off: mix and match sections freely."
+                aria-label="What is prof lock?"
+              >
+                ?
+              </span>
             </label>
           </div>
         )}

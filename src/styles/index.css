@@ -330,6 +330,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+  margin-left: 24px;
   font-size: 13px;
   color: var(--muted);
   cursor: pointer;
@@ -377,6 +378,21 @@ body {
 }
 .prof-lock .switch input:focus-visible + .slider {
   outline: 2px solid var(--accent-soft);
+}
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: help;
+  flex-shrink: 0;
 }
 .results-count {
   font-size: 14px;
