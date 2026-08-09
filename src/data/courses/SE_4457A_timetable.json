@@ -1,0 +1,57 @@
+{
+  "code": "SE 4457A",
+  "name": "FOUND. OF MULTIAGENT",
+  "term": "Fall",
+  "components": [
+    {
+      "type": "LEC",
+      "sections": [
+        {
+          "section": "001",
+          "classNbr": "18450",
+          "instructor": "A. Sarkar",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "16:30",
+              "end": "17:30",
+              "location": "ACEB-1410"
+            },
+            {
+              "day": "We",
+              "start": "14:30",
+              "end": "16:30",
+              "location": "SEB-3109"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TUT",
+      "sections": [
+        {
+          "section": "002",
+          "classNbr": "18451",
+          "instructor": "A. Sarkar",
+          "campus": "Main",
+          "deliveryType": "In Person",
+          "status": "Not Full",
+          "waitlist": 0,
+          "meetings": [
+            {
+              "day": "Mo",
+              "start": "10:30",
+              "end": "12:30",
+              "location": "SEB-3109"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
